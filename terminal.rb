@@ -10,7 +10,11 @@ class PigLatinClient
     puts "Type any english word to translate into Pig Latin."
     word = gets.chomp
     translated = PigLatin.translate(word)
-    puts "The translation of #{word} is #{translated}."
+    if translated == :error
+      puts "This word is not a correct English word." 
+    else
+      puts "The translation of #{word} is #{translated}."
+    end
     PigLatinClient.another_word?
   end
 

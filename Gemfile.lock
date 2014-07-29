@@ -1,8 +1,8 @@
 GIT
-  remote: https://github.com/cath-oneill/pig-latin
-  revision: 1906f9cb59d24f80313f899f33d2f5f57e3ae2f8
+  remote: https://github.com/cath-oneill/pig-latin.git
+  revision: 9f05919704d08d0fe11b4087bbad9303752787bc
   specs:
-    piglatin (0.0.1)
+    piglatin (0.0.2)
 
 GEM
   remote: https://rubygems.org/
