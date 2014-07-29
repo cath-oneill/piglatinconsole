@@ -7,7 +7,7 @@ class PigLatinClient
   end 
 
   def self.translate
-    puts "Type any english word to translate into Pig Latin."
+    puts "Enter any english word to translate into Pig Latin."
     word = gets.chomp
     translated = PigLatin.translate(word)
     if translated == :error
